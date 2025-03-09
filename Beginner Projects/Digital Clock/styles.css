@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.clock {
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    transition: color 0.5s ease;
+}
+
+.clock:hover {
+    color: #61dafb;
+}
+
+.date {
+    font-size: 24px;
+    margin-top: 15px;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
