@@ -6,7 +6,7 @@ Welcome to 50 Days, 50 Projects! This is a collection of beginner-friendly codin
 🛠️ Beginner Projects
 Start with the basics and build a strong foundation.
 
-To-Do List
+Task Manager
 Create a task manager to add, delete, and complete tasks. ✅
 Digital Clock
 Display the current time, updating every second. ⏰
