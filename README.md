@@ -1,4 +1,5 @@
-#🌟 50 Days, 50 Projects
+🌟 50 Days, 50 Projects
+
 Welcome to 50 Days, 50 Projects! This is a collection of beginner-friendly coding projects designed to sharpen your skills in HTML, CSS, and JavaScript. Whether you're just starting out or looking to level up, these projects offer a mix of practical tools, fun games, and creative animations. Let’s build something amazing, one day at a time! 🚀
 
 🎯 Project Categories
