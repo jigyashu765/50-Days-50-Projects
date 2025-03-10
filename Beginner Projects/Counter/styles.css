@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.counter-display {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px; /* Added gap for spacing between buttons */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Increased border-radius for a softer look */
+    padding: 12px 25px; /* Increased padding for larger buttons */
+    font-size: 18px; /* Increased font size for better readability */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+button:active {
+    background-color: #004085;
+    transform: scale(0.95); /* Slightly shrink button on active */
+}
