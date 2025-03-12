@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Word Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="word-counter-card">
+            <h2>Word Counter</h2>
+            <textarea id="textInput" placeholder="Type or paste your text here..." rows="8"></textarea>
+            <div class="stats">
+                <div class="stat">
+                    <span id="wordCount">0</span>
+                    <p>Words</p>
+                </div>
+                <div class="stat">
+                    <span id="charCount">0</span>
+                    <p>Characters</p>
+                </div>
+            </div>
+            <button id="clearBtn">Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
