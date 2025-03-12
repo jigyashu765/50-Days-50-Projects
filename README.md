@@ -113,7 +113,7 @@ Bounce a ball with a paddle in classic style. 🏓
 
 Build practical tools for everyday use.
 
-Password Generator
+✅Password Generator
 Create secure passwords with options. 🔒
 
 BMI Calculator
@@ -131,7 +131,7 @@ Convert length, weight, or volume units. 📏
 Expense Tracker
 Manage income and expenses in a list. 💰
 
-Word Counter
+✅cWord Counter
 Count words and characters in text. 📝
 
 QR Code Generator
