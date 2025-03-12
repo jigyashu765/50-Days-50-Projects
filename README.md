@@ -8,35 +8,36 @@ Welcome to 50 Days, 50 Projects! This is a collection of beginner-friendly codin
 
 Start with the basics and build a strong foundation.
 
-Task Manager
+✅Task Manager
 Create a task manager to add, delete, and complete tasks. ✅
 
-Digital Clock 
+✅Digital Clock 
 Display the current time, updating every second. ⏰
 
-Calculator
+✅Calculator
 Build a basic calculator for everyday math. ➕➖✖️➗
 
-Random Quote Generator
+✅Random Quote Generator
 Show a new quote with each button click. 💬
 
-Color Flipper
+✅Color Flipper
 Randomly change the page’s background color. 🎨
 
-Counter
+✅Counter
 A simple counter with increment, decrement, and reset. 🔢
 
-Guess the Number Game
+✅Guess the Number Game
 Guess a number between 1 and 100 with hints. 🎲
 
-Temperature Converter
+✅Temperature Converter
 Switch between Celsius and Fahrenheit. 🌡️
 
-Modal Popup
+✅Modal Popup
 Open and close a stylish modal window. 📤
 
-Image Slider
+✅Image Slider
 Navigate a carousel of images with next/prev buttons. 🖼️
+
 
 🌈 Interactive UI Projects
 
@@ -54,23 +55,24 @@ Design a sleek hover or click navigation dropdown. ⬇️
 Form Validation
 Validate a login form with error feedback. ✔️
 
-Progress Bar
+✅Progress Bar
 Animate a bar that fills up on action or scroll. ⏳
 
 Sticky Navbar
 Keep the navbar fixed while scrolling. 📌
 
-Dark Mode Toggle
+✅Dark Mode Toggle
 Switch between light and dark themes. 🌙
 
 Interactive Rating Component
 Rate with stars and see instant feedback. ⭐
 
-Filterable Gallery
+✅Filterable Gallery
 Filter images or items by category. 🗂️
 
 Animated Hamburger Menu
 Toggle a mobile-friendly menu with style. 🍔
+
 
 🎮 Games and Fun Projects
 
@@ -106,6 +108,7 @@ Guess the word before time runs out. 🪢
 Pong Game
 Bounce a ball with a paddle in classic style. 🏓
 
+
 ⚙️ Utility Tools
 
 Build practical tools for everyday use.
@@ -139,6 +142,7 @@ Show static weather data with toggles. ☀️
 
 Shopping List
 Add and remove items with quantities. 🛒
+
 
 ✨ Creative and Animation Projects
 
