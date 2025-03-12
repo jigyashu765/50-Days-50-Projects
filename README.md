@@ -87,7 +87,7 @@ Flip cards to find matching pairs. 🃏
 Rock, Paper, Scissors
 Play against the computer with results. ✊✋✌️
 
-Snake Game
+✅Snake Game
 Control a snake with arrow keys. 🐍
 
 Simon Says
