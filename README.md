@@ -52,7 +52,7 @@ Switch between content with a tabbed layout. 📖
 Dropdown Menu
 Design a sleek hover or click navigation dropdown. ⬇️
 
-Form Validation
+✅Form Validation
 Validate a login form with error feedback. ✔️
 
 ✅Progress Bar
