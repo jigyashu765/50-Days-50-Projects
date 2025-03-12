@@ -8,24 +8,34 @@ Start with the basics and build a strong foundation.
 
 Task Manager
 Create a task manager to add, delete, and complete tasks. ✅
-Digital Clock
+
+Digital Clock 
 Display the current time, updating every second. ⏰
+
 Calculator
 Build a basic calculator for everyday math. ➕➖✖️➗
+
 Random Quote Generator
 Show a new quote with each button click. 💬
+
 Color Flipper
 Randomly change the page’s background color. 🎨
+
 Counter
 A simple counter with increment, decrement, and reset. 🔢
+
 Guess the Number Game
 Guess a number between 1 and 100 with hints. 🎲
+
 Temperature Converter
 Switch between Celsius and Fahrenheit. 🌡️
+
 Modal Popup
 Open and close a stylish modal window. 📤
+
 Image Slider
 Navigate a carousel of images with next/prev buttons. 🖼️
+
 🌈 Interactive UI Projects
 Level up with dynamic and user-friendly interfaces.
 
