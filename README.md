@@ -78,7 +78,7 @@ Toggle a mobile-friendly menu with style. 🍔
 
 Code some playful and challenging games.
 
-Tic-Tac-Toe
+✅Tic-Tac-Toe
 A two-player game with win detection. ❌⭕
 
 Memory Card Game
