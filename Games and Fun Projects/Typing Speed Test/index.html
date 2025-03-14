@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Typing Speed Test</h1>
+            <div class="timer">Time: <span id="timer">60</span>s</div>
+        </div>
+        <div class="controls">
+            <label for="difficulty">Level:</label>
+            <select id="difficulty">
+                <option value="1">Level 1 (asdfghjkl)</option>
+                <option value="2">Level 2 (qwertyuiop)</option>
+                <option value="3">Level 3 (zxcvbnm)</option>
+                <option value="4">Level 4 (All + Symbols)</option>
+                <option value="5">Level 5 (Numbers)</option>
+            </select>
+            <label for="case">Case:</label>
+            <select id="case">
+                <option value="lowercase">Lowercase</option>
+                <option value="uppercase">Uppercase</option>
+                <option value="mixed">Mixed</option>
+            </select>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="text-display" id="textDisplay">
+            <div class="text-slider" id="textSlider"></div>
+        </div>
+        <textarea class="input-area" id="inputArea" placeholder="Start typing here..." disabled></textarea>
+        <div class="stats">
+            <p>WPM: <span id="wpm">0</span></p>
+            <p>Accuracy: <span id="accuracy">0%</span></p>
+            <p>High Score: <span id="highScore">0</span></p>
+        </div>
+        <button class="start-btn" id="startBtn">Start Test</button>
+        <div class="results-overlay" id="resultsOverlay">
+            <div class="results">
+                <h2>Test Complete!</h2>
+                <p>WPM: <span id="finalWpm"></span></p>
+                <p>Accuracy: <span id="finalAccuracy"></span></p>
+                <button class="restart-btn" id="restartBtn">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
