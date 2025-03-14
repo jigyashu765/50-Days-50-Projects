@@ -1,0 +1,122 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Tabs Container */
+.tabs-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navigation */
+.tabs-nav {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.tab-btn:hover {
+    color: #2c3e50;
+    transform: translateY(-2px);
+}
+
+.tab-btn.active {
+    color: #3498db;
+}
+
+.tab-indicator {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background: #3498db;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s ease;
+    border-radius: 2px 2px 0 0;
+}
+
+/* Content */
+.tabs-content {
+    padding: 30px;
+}
+
+.tab-pane {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-pane.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tab-pane h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.tab-pane p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .tabs-container {
+        border-radius: 10px;
+    }
+
+    .tab-btn {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+
+    .tabs-content {
+        padding: 20px;
+    }
+
+    .tab-pane h2 {
+        font-size: 1.5rem;
+    }
+
+    .tab-pane p {
+        font-size: 1rem;
+    }
+}
