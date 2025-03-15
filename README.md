@@ -99,7 +99,7 @@ Roll virtual dice with random outcomes. 🎲
 Whack-a-Mole
 Click moles for points as they pop up. 🐹
 
-Typing Speed Test
+✅Typing Speed Test
 Measure your typing speed and accuracy. ⌨️
 
 Hangman Game
