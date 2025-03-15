@@ -46,7 +46,7 @@ Level up with dynamic and user-friendly interfaces.
 Accordion Menu
 Build a collapsible FAQ-style section. 📑
 
-Tabs Navigation
+✅Tabs Navigation
 Switch between content with a tabbed layout. 📖
 
 Dropdown Menu
@@ -58,7 +58,7 @@ Validate a login form with error feedback. ✔️
 ✅Progress Bar
 Animate a bar that fills up on action or scroll. ⏳
 
-Sticky Navbar
+✅Sticky Navbar
 Keep the navbar fixed while scrolling. 📌
 
 ✅Dark Mode Toggle
@@ -81,16 +81,16 @@ Code some playful and challenging games.
 ✅Tic-Tac-Toe
 A two-player game with win detection. ❌⭕
 
-Memory Card Game
+✅Memory Card Game
 Flip cards to find matching pairs. 🃏
 
-Rock, Paper, Scissors
+✅Rock, Paper, Scissors
 Play against the computer with results. ✊✋✌️
 
 ✅Snake Game
 Control a snake with arrow keys. 🐍
 
-Simon Says
+✅Simon Says
 Repeat a growing sequence of colors. 🔴🟢🔵
 
 Dice Roller
@@ -116,10 +116,10 @@ Build practical tools for everyday use.
 ✅Password Generator
 Create secure passwords with options. 🔒
 
-BMI Calculator
+✅BMI Calculator
 Calculate Body Mass Index from inputs. ⚖️
 
-Stopwatch
+✅Stopwatch
 Time events with start, stop, and reset. ⏱️
 
 Countdown Timer
@@ -131,10 +131,10 @@ Convert length, weight, or volume units. 📏
 Expense Tracker
 Manage income and expenses in a list. 💰
 
-✅cWord Counter
+✅Word Counter
 Count words and characters in text. 📝
 
-QR Code Generator
+✅QR Code Generator
 Turn text or URLs into scannable QR codes. 📲
 
 Weather Dashboard
