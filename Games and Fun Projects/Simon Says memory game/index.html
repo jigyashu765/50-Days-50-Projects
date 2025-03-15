@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says - Premium Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Simon Says</h1>
+        <div class="score-board">
+            <div>Score: <span id="score">0</span></div>
+            <div>High Score: <span id="high-score">0</span></div>
+        </div>
+        <div class="game-board">
+            <div class="color-pad red" data-color="0"></div>
+            <div class="color-pad green" data-color="1"></div>
+            <div class="color-pad yellow" data-color="2"></div>
+            <div class="color-pad blue" data-color="3"></div>
+        </div>
+        <button id="start-btn">
+            <span id="start-text">Start Game</span>
+            <span id="loading-spinner" class="hidden">Loading...</span>
+        </button>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

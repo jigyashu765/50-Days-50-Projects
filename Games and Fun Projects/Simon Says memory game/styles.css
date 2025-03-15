@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a3d);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.color-pad {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.color-pad.active {
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+
+.red { background: #ff4444; }
+.green { background: #44ff44; }
+.yellow { background: #ffff44; }
+.blue { background: #4444ff; }
+
+#start-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    background: #00d4ff;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+#start-btn:hover {
+    background: #00b7d6;
+    transform: translateY(-2px);
+}
+
+#message {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    min-height: 1.1rem;
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .game-board {
+        gap: 0.5rem;
+    }
+}
+
+/* Add glow effect on active pads */
+.color-pad.active {
+    opacity: 0.7;
+    transform: scale(0.95);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+/* Add a subtle pulse animation for the start button */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#start-btn {
+    animation: pulse 2s infinite;
+}
+
+#start-btn:disabled {
+    animation: none;
+    opacity: 0.7;
+}
+
+/* Hide loading spinner by default */
+.hidden {
+    display: none;
+}
+
+/* Improve mobile responsiveness */
+@media (max-width: 480px) {
+    .color-pad {
+        padding-top: 80%;
+    }
+}
