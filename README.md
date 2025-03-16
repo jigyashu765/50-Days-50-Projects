@@ -43,13 +43,13 @@ Navigate a carousel of images with next/prev buttons. 🖼️
 
 Level up with dynamic and user-friendly interfaces.
 
-Accordion Menu
+✅Accordion Menu
 Build a collapsible FAQ-style section. 📑
 
 ✅Tabs Navigation
 Switch between content with a tabbed layout. 📖
 
-Dropdown Menu
+✅Dropdown Menu
 Design a sleek hover or click navigation dropdown. ⬇️
 
 ✅Form Validation
@@ -64,13 +64,13 @@ Keep the navbar fixed while scrolling. 📌
 ✅Dark Mode Toggle
 Switch between light and dark themes. 🌙
 
-Interactive Rating Component
+✅Interactive Rating Component
 Rate with stars and see instant feedback. ⭐
 
 ✅Filterable Gallery
 Filter images or items by category. 🗂️
 
-Animated Hamburger Menu
+✅Animated Hamburger Menu
 Toggle a mobile-friendly menu with style. 🍔
 
 
