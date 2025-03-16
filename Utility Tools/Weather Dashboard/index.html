@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-dashboard">
+        <div class="dashboard-header">
+            <h1>Weather Dashboard</h1>
+            <div class="toggle-controls">
+                <button class="temp-toggle">°C / °F</button>
+                <button class="location-toggle">Switch Location</button>
+            </div>
+        </div>
+        
+        <div class="weather-card">
+            <div class="location-info">
+                <h2 class="city-name">New York</h2>
+                <p class="date">March 16, 2025</p>
+            </div>
+            
+            <div class="weather-main">
+                <div class="temp-display">
+                    <span class="temperature">22</span>
+                    <span class="unit">°C</span>
+                </div>
+                <div class="weather-icon">☀️</div>
+                <p class="condition">Sunny</p>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span class="label">Humidity</span>
+                    <span class="value">65%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Wind</span>
+                    <span class="value">12 km/h</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Pressure</span>
+                    <span class="value">1015 mb</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
