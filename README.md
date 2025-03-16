@@ -93,7 +93,7 @@ Control a snake with arrow keys. 🐍
 ✅Simon Says
 Repeat a growing sequence of colors. 🔴🟢🔵
 
-Dice Roller
+✅Dice Roller
 Roll virtual dice with random outcomes. 🎲
 
 Whack-a-Mole
@@ -137,7 +137,7 @@ Count words and characters in text. 📝
 ✅QR Code Generator
 Turn text or URLs into scannable QR codes. 📲
 
-Weather Dashboard
+✅Weather Dashboard
 Show static weather data with toggles. ☀️
 
 Shopping List
