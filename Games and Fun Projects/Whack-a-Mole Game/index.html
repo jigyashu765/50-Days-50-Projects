@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Whack-a-Mole</h1>
+        <div class="stats">
+            <div>Score: <span id="score">0</span></div>
+            <div>Time Left: <span id="timeLeft">30</span>s</div>
+        </div>
+        <button id="startBtn">Start Game</button>
+        <div class="game-board" id="gameBoard">
+            <div class="hole"><div class="mole"></div></div>
+            <div class="hole"><div class="mole"></div></div>
+            <div class="hole"><div class="mole"></div></div>
+            <div class="hole"><div class="mole"></div></div>
+            <div class="hole"><div class="mole"></div></div>
+            <div class="hole"><div class="mole"></div></div>
+        </div>
+    </div>
+    <audio id="hitSound" src="https://www.soundjay.com/buttons/beep-01a.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
