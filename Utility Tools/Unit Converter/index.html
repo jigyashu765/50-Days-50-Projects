@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="category-selector">
+            <button class="category-btn active" data-category="length">Length</button>
+            <button class="category-btn" data-category="weight">Weight</button>
+            <button class="category-btn" data-category="volume">Volume</button>
+        </div>
+        <div class="converter">
+            <div class="input-group">
+                <input type="number" id="inputValue" placeholder="Enter value" aria-label="Input value">
+                <select id="inputUnit"></select>
+            </div>
+            <span class="equals">=</span>
+            <div class="input-group">
+                <input type="number" id="outputValue" readonly aria-label="Converted value">
+                <select id="outputUnit"></select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
