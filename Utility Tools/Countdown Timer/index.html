@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="input-section">
+            <input type="number" id="hours" min="0" placeholder="HH" aria-label="Hours">
+            <span>:</span>
+            <input type="number" id="minutes" min="0" max="59" placeholder="MM" aria-label="Minutes">
+            <span>:</span>
+            <input type="number" id="seconds" min="0" max="59" placeholder="SS" aria-label="Seconds">
+            <button id="startBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div class="timer-display" id="timerDisplay">
+            <span id="displayHours">00</span>:<span id="displayMinutes">00</span>:<span id="displaySeconds">00</span>
+        </div>
+        <div class="notification" id="notification">Time's Up!</div>
+    </div>
+    <audio id="alarmSound" src="https://www.soundjay.com/buttons/beep-01a.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
