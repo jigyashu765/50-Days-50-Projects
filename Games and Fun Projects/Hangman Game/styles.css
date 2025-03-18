@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c73, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #2a5298;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hangman-display {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.hangman-svg {
+    width: 200px;
+    stroke: #2a5298;
+    stroke-width: 4;
+    fill: none;
+}
+
+.hangman-svg > * {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.word-display {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.attempts {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.key {
+    background: #2a5298;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s, opacity 0.2s;
+}
+
+.key:hover:not(:disabled) {
+    transform: scale(1.1);
+    background: #1e3c73;
+}
+
+.key:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.key.incorrect {
+    background: #ff6b6b;
+    color: white;
+}
+
+.hint-btn {
+    display: block;
+    margin: 0 auto 1.5rem;
+    padding: 10px 20px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.hint-btn:hover {
+    transform: scale(1.05);
+    background: #1e3c73;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #2a5298;
+    min-height: 2rem;
+}
+
+.restart-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.restart-btn:hover {
+    transform: scale(1.05);
+    background: #1e3c73;
+}
+
+@media (max-width: 600px) {
+    .game-container {
+        padding: 1rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .word-display {
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+    
+    .key {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+    .hint-btn, .restart-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
