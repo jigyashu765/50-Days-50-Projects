@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="title">Shopping List</h1>
+        
+        <form class="input-form" id="itemForm">
+            <input type="text" id="itemName" placeholder="Item name" required>
+            <input type="number" id="itemQuantity" placeholder="Qty" min="1" value="1" required>
+            <button type="submit" class="add-btn" id="submitBtn">Add Item</button>
+        </form>
+
+        <ul class="shopping-list" id="shoppingList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
