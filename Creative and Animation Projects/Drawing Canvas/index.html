@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Drawing Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Drawing Canvas</h1>
+            <span class="subtitle">Unleash Your Creativity</span>
+        </header>
+        <div class="toolbar">
+            <div class="tool-group">
+                <label class="tool-label">Color</label>
+                <input type="color" id="colorPicker" value="#000000">
+                <label class="tool-label">Size</label>
+                <input type="range" id="brushSize" min="1" max="50" value="5">
+                <span id="sizeDisplay" class="size-display">5</span>
+            </div>
+            <div class="tool-group">
+                <button id="brushTool" class="tool-btn active" data-tooltip="Brush Tool"><i class="fas fa-paint-brush"></i></button>
+                <button id="eraserTool" class="tool-btn" data-tooltip="Eraser Tool"><i class="fas fa-eraser"></i></button>
+                <button id="clearCanvas" class="tool-btn" data-tooltip="Clear Canvas"><i class="fas fa-trash"></i></button>
+                <button id="downloadBtn" class="tool-btn" data-tooltip="Download Artwork"><i class="fas fa-download"></i></button>
+            </div>
+        </div>
+        <canvas id="drawingCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
