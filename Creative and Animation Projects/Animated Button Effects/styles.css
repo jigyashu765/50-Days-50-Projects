@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a4a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.btn {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    background: linear-gradient(45deg, #6b48ff, #00ddeb);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Ripple Effect - Click */
+.ripple-btn::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: ripple 0.6s linear;
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    to {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+/* Ripple Effect - Hover */
+.ripple-btn:hover::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rippleHover 1.5s infinite linear;
+    pointer-events: none;
+}
+
+@keyframes rippleHover {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.5;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+/* Glow Effect */
+.glow-btn {
+    box-shadow: 0 0 10px rgba(107, 72, 255, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.glow-btn:hover {
+    box-shadow: 0 0 20px rgba(107, 72, 255, 0.8),
+                0 0 30px rgba(0, 221, 235, 0.5);
+}
+
+/* Bounce Effect */
+.bounce-btn:hover {
+    animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Controls */
+.controls {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="range"] {
+    width: 150px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+    
+    .button-container {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
