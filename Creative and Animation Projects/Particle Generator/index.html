@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="particle-canvas"></canvas>
+        <div class="controls">
+            <h1>Particle Generator</h1>
+            <label>
+                Density: <input type="range" id="density" min="50" max="200" value="100">
+            </label>
+            <label>
+                Speed: <input type="range" id="speed" min="1" max="5" value="2">
+            </label>
+            <label>
+                Size: <input type="range" id="size" min="1" max="5" value="2">
+            </label>
+            <label>
+                Color: <input type="color" id="color" value="#ffffff">
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
