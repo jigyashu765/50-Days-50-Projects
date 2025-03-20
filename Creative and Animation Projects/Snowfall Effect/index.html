@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Snowfall Effect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="snowfall-layer foreground"></div>
+        <div class="snowfall-layer midground"></div>
+        <div class="snowfall-layer background"></div>
+        <div class="controls">
+            <h1>Snowfall Experience</h1>
+            <div class="control-group">
+                <label for="intensity">Intensity</label>
+                <input type="range" id="intensity" min="50" max="300" value="100">
+            </div>
+            <div class="control-group">
+                <label for="speed">Speed</label>
+                <input type="range" id="speed" min="2" max="10" value="5">
+            </div>
+            <div class="control-group">
+                <label for="wind">Wind Strength</label>
+                <input type="range" id="wind" min="0" max="50" value="20">
+            </div>
+            <div class="control-group">
+                <label for="color">Color</label>
+                <input type="color" id="color" value="#ffffff">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
