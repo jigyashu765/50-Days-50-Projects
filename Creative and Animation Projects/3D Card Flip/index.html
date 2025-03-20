@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Card Flip Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive 3D Cards</h1>
+        <div class="card-grid">
+            <!-- Card 1: Hover Trigger -->
+            <div class="card" data-flip="hover">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h2>Explore</h2>
+                        <p>Hover to Reveal</p>
+                        <img src="https://via.placeholder.com/120" alt="Front Icon">
+                    </div>
+                    <div class="card-back">
+                        <h2>Details</h2>
+                        <p>Uncover hidden content with a smooth flip.</p>
+                        <button class="btn">Discover</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Click Trigger -->
+            <div class="card" data-flip="click">
+                <div class="card-inner">
+                    <div class="card-front style-2">
+                        <h2>Profile</h2>
+                        <img src="https://via.placeholder.com/100" alt="Profile">
+                        <p>Click Me</p>
+                    </div>
+                    <div class="card-back style-2">
+                        <h2>Info</h2>
+                        <p>Name: Alex Smith</p>
+                        <p>Role: Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Hover Trigger -->
+            <div class="card" data-flip="hover">
+                <div class="card-inner">
+                    <div class="card-front style-3">
+                        <h2>Product</h2>
+                        <p>Premium Quality</p>
+                    </div>
+                    <div class="card-back style-3">
+                        <h2>Buy Now</h2>
+                        <p>$149.99</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
