@@ -1,0 +1,110 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1a1a1a;
+    font-family: 'Courier New', monospace;
+    overflow-x: hidden;
+}
+
+/* Typewriter Container */
+.typewriter-container {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Typewriter Text */
+.typewriter-text {
+    font-size: 2rem;
+    color: #fff;
+    white-space: pre-wrap;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Cursor */
+.cursor {
+    color: #00ffcc;
+    animation: blink 0.7s infinite step-end;
+    margin-left: 2px; /* Small offset from text */
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Controls */
+.controls {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    color: #fff;
+}
+
+label {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="range"] {
+    width: 150px;
+    accent-color: #00ffcc;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: #00ffcc;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #00ffcc;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #00cc99;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .typewriter-text {
+        font-size: 1.5rem;
+    }
+    .controls {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    input[type="range"] {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .typewriter-text {
+        font-size: 1.2rem;
+    }
+    .typewriter-container {
+        padding: 1rem;
+    }
+}

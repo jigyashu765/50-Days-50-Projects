@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Typewriter Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="typewriter-container">
+        <div class="typewriter-text" id="typewriter"></div>
+        <div class="controls">
+            <label>Speed (ms): 
+                <input type="range" id="speed" min="50" max="500" step="10" value="100">
+            </label>
+            <label>Loop: 
+                <input type="checkbox" id="loop" checked>
+            </label>
+            <button id="pauseResume">Pause</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
