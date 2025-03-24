@@ -1,0 +1,85 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Parallax Container */
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Parallax Layers */
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.layer-1 {
+    background-image: url('https://img.freepik.com/free-photo/beautiful-green-iguana-closeup-head-wood-animal-closeup_488145-3562.jpg?t=st=1742713740~exp=1742717340~hmac=906e89bfa04faa61c18437c13fbaa6999ad9e7350c838182cebe0d08b94dcc94&w=1380');
+    /* Replace with your image */
+    z-index: 1;
+}
+
+.layer-2 {
+    background-image: url('https://img.freepik.com/free-photo/amazing-bengal-tiger-nature_475641-1189.jpg?t=st=1742713767~exp=1742717367~hmac=10203f5710de3b9cf8592a7a3d79a5a622155209e390638e9019577f6f353bfe&w=1060');
+    /* Replace with your image */
+    z-index: 2;
+}
+
+.layer-3 {
+    background-image: url('https://img.freepik.com/free-photo/white-tailed-deer-resting-forest_181624-11017.jpg?t=st=1742713795~exp=1742717395~hmac=1e38d99c65f961767d35aec47878d6721a575cb4b4b1e4c121130ed12fd8d77c&w=1380');
+    /* Replace with your image */
+    z-index: 3;
+}
+
+/* Fixed Foreground Elements */
+.foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 4;
+}
+
+.foreground h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.foreground p {
+    font-size: 1.5rem;
+}
+
+/* Dummy Content */
+.content {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .foreground h1 {
+        font-size: 2rem;
+    }
+
+    .foreground p {
+        font-size: 1rem;
+    }
+}
