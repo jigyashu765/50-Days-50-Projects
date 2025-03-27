@@ -102,10 +102,10 @@ Click moles for points as they pop up. 🐹
 ✅Typing Speed Test
 Measure your typing speed and accuracy. ⌨️
 
-Hangman Game
+✅Hangman Game
 Guess the word before time runs out. 🪢
 
-Pong Game
+✅Pong Game
 Bounce a ball with a paddle in classic style. 🏓
 
 
@@ -122,13 +122,13 @@ Calculate Body Mass Index from inputs. ⚖️
 ✅Stopwatch
 Time events with start, stop, and reset. ⏱️
 
-Countdown Timer
+✅Countdown Timer
 Set a timer with an alarm at zero. ⏲️
 
-Unit Converter
+✅Unit Converter
 Convert length, weight, or volume units. 📏
 
-Expense Tracker
+✅Expense Tracker
 Manage income and expenses in a list. 💰
 
 ✅Word Counter
@@ -148,34 +148,34 @@ Add and remove items with quantities. 🛒
 
 Unleash your creativity with animations and effects.
 
-Drawing Canvas
+✅Drawing Canvas
 Draw pixels with your mouse. ✏️
 
-Animated Loading Spinner
+✅Animated Loading Spinner
 Design CSS spinners for loading states. ⏳
 
-Parallax Scrolling Effect
+✅Parallax Scrolling Effect
 Add depth with moving backgrounds. 🌌
 
-Typing Animation
+✅Typing Animation
 Simulate a typewriter effect for text. 🖋️
 
-Particle Generator
+✅Particle Generator
 Create interactive particles with mouse. ✨
 
-Hover Board
+✅Hover Board
 Change square colors on hover in a grid. 🟥🟩🟦
 
-3D Card Flip
+✅3D Card Flip
 Flip cards with smooth CSS transitions. 🃏
 
-Animated Button Effects
+✅Animated Button Effects
 Add ripple, glow, or bounce to buttons. 🔘
 
-Snowfall Effect
+✅Snowfall Effect
 Watch snowflakes fall with CSS magic. ❄️
 
-Interactive Timeline
+✅Interactive Timeline
 Click through a stylish vertical timeline. ⏳
 
 💡 Tips for Success
