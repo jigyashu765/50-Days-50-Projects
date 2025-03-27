@@ -96,7 +96,7 @@ Repeat a growing sequence of colors. 🔴🟢🔵
 ✅Dice Roller
 Roll virtual dice with random outcomes. 🎲
 
-Whack-a-Mole
+✅Whack-a-Mole
 Click moles for points as they pop up. 🐹
 
 ✅Typing Speed Test
@@ -140,7 +140,7 @@ Turn text or URLs into scannable QR codes. 📲
 ✅Weather Dashboard
 Show static weather data with toggles. ☀️
 
-Shopping List
+✅Shopping List
 Add and remove items with quantities. 🛒
 
 
